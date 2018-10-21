@@ -1,0 +1,37 @@
+User-agent: *
+Disallow: /private*
+Sitemap: https://example.app/sitemap.xml
+
+# For specific bots (on all domains)
+User-agent: AdsBot-Google
+Disallow:
+
+User-Agent: Baiduspider
+Disallow: /
+
+User-Agent: CazoodleBot
+Disallow: /
+
+User-Agent: Fasterfox
+Disallow: /
+
+User-Agent: Ingrid
+Crawl-delay: 20
+
+User-Agent: Jyxobot
+Disallow: /
+
+User-Agent: MJ12bot
+Disallow: /
+
+User-Agent: msnbot
+Crawl-Delay: 20
+
+User-Agent: Slurp
+Crawl-delay: 20
+
+User-Agent: Yahoo! Slurp
+Crawl-delay: 20
+
+User-agent: rogerbot
+Crawl-delay: 2
