@@ -1,13 +1,13 @@
-# Example SEO in an Angular 6 app
+# Example SEO implementation in an Angular 6 app
 
-## Install dependencies
+## Install dependencies through yarn
 
 - yarn add express
 - yarn add @angular/platform-server
 - yarn add @nguniversal/common
 - yarn add @nguniversal/express-engine
 
-## Add browser and server module
+## Add browser and server module to your angular project
 
 - ng generate module browser
 - ng generate module server
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 ```
 
-## Add build commands in package.json
+## Add build commands in package.json to be able to build quickly and easily
 
 ```json
     "build-prod": "ng build --prod && ng run example-angular6-seo:server:production --output-hashing=none",
